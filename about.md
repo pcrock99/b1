@@ -16,7 +16,6 @@ permalink: /about/
 
 - 瞎机霸折腾...
 - 又菜又爱玩...
-- GitHub: [pcrock99](https://github.com/pcrock99)
 
 ---
 
@@ -25,7 +24,7 @@ permalink: /about/
 - **框架**：Jekyll
 - **主题**：Hacker（黑绿终端风）
 - **托管**：GitHub Pages
-- **编写**：全程ds
+- **编写**：全程ds，跟我没半毛钱关系...嗯，留的是我的名字...哈...
 
 ### 目前已实现的功能
 
@@ -38,12 +37,7 @@ permalink: /about/
 | 随机二次元图片 | ✅ |
 | 一言（随机名言） | ✅ |
 
----
 
-## 📬 联系我
-
-- GitHub: [pcrock99](https://github.com/pcrock99)
-- 邮箱: `your-email@example.com`
 
 ---
 

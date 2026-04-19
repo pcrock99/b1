@@ -15,6 +15,15 @@ plugins:
   - jekyll-remote-theme
   - jekyll-paginate
 
+# 导航栏
+nav_links:
+  - title: "首页"
+    url: "/"
+  - title: "分类"
+    url: "/categories/"
+  - title: "标签"
+    url: "/tags/"
+
 
 # pages-themes/minimal@v0.2.0	    	极简侧边栏
 # pages-themes/cayman@v0.2.0	    		大标题现代风

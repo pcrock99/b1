@@ -169,17 +169,11 @@ const mixedApis = [
   { type: 'direct', name: '东方Project', url: 'https://img.paulzzh.tech/touhou/random?t=' }
 ];
 
-const fallbackImages = [
-  'https://picsum.photos/id/100/400/200',
-  'https://picsum.photos/id/104/400/200',
-  'https://picsum.photos/id/106/400/200',
-  'https://picsum.photos/id/169/400/200'
-];
-
+// 备用图片：使用 picsum 的随机 ID（1-1000）
 function useFallbackImage() {
-  const randomIndex = Math.floor(Math.random() * fallbackImages.length);
-  imgElement.src = fallbackImages[randomIndex];
-  console.log('使用备用图片');
+  const randomId = Math.floor(Math.random() * 1000) + 1;  // 1 到 1000 随机
+  imgElement.src = `https://picsum.photos/id/${randomId}/400/200`;
+  console.log('使用备用图片，ID:', randomId);
 }
 
 async function loadRandomImage() {

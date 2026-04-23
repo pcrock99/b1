@@ -18,6 +18,17 @@ plugins:
 # 自定义颜色
 theme_color: "#159957"   # 改成你喜欢的绿色
 
+# 自定义文章排序
+collections:
+  posts:
+    output: true
+    sort_by: date  # 按日期排序（默认）
+
+# 替代排序选项示例
+# collections:
+#   posts:
+#     output: true
+#     sort_by: title  # 按标题字母顺序排序
 
 # pages-themes/minimal@v0.2.0	    	极简侧边栏
 # pages-themes/cayman@v0.2.0	    		大标题现代风
